@@ -26,7 +26,7 @@ const initTimer = maxTime => {
 }
 
 function randomWord(){
-    initTimer(45);
+    initTimer(30);
     incorrectLetters=[], correctLetters=[];
     let ranObj = wordList[Math.floor(Math.random() * wordList.length)];
     word = ranObj.word;
