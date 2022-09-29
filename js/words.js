@@ -196,4 +196,8 @@ const wordList = [
         word: "rain",
         hint: "related to a water"
     },
+    {
+        word: "github",
+        hint: "code hosting platform for version control and collaboration"
+    },
 ]
