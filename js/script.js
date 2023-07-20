@@ -12,7 +12,7 @@ const inputs = document.querySelector('.inputs'),
         let ranObj = wordList[Math.floor(Math.random() * wordList.length)];
         word = ranObj.word;
         guess = word.length >= 5 ? 8 : 6;
-        incorrectLetters=[], correctLetters = []
+        incorrectLetters=[], correctLetters = [];
         for(let i = 0; i < word.length; i++){
             html += `<input type="text" disable />`
         }
