@@ -26,7 +26,7 @@ function randomWord () {
 }
 randomWord()
 
-function initGame(event){
+function initGame(event){ 
     let key = event.target.value.toLowerCase();
     if(key.match(/^[A-Za-z]+$/) && !incorrectLetters.includes(key) && !correctLetters.includes(key)) {
         if(word.includes(key)){
